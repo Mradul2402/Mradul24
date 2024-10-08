@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            /* background:aqua 0deg 90deg, cyan 90deg 270deg, aqua 270deg 360deg; */
+            background-color: blue;
+            border: 2px solid blue;
+            border-radius: 100px;
+            height: 200px;
+            width: 200px;
+            animation: shade 1s ease-in-out ease-in forwards;
+        }
+        @keyframes shade{
+            10%{background-color: aqua;}
+            30%{background-color: rgb(101, 203, 203);}
+            50%{background-color: rgb(88, 146, 146);}
+            70%{background-color: rgb(148, 170, 170);}
+            100%{background-color: rgb(126, 155, 155);}
+        }
+    </style>
+</head>
+<body>
+    <div class="circle">
+
+    </div>
+</body>
+</html>
